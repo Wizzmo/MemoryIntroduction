@@ -27,7 +27,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hDc-EV-Usp">
-                                <rect key="frame" x="20" y="100" width="335" height="41"/>
+                                <rect key="frame" x="147.5" y="100" width="80" height="41"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -36,8 +36,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hDc-EV-Usp" secondAttribute="trailing" constant="20" id="375-et-OKV"/>
-                            <constraint firstItem="hDc-EV-Usp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="HOD-cc-T3B"/>
                             <constraint firstItem="mql-5u-d7I" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="NXT-j3-j20"/>
                             <constraint firstItem="mql-5u-d7I" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Utl-6S-UaX"/>
                             <constraint firstItem="hDc-EV-Usp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="V6H-KO-rbS"/>
@@ -67,6 +65,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Close VC">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="closeVCPressed" destination="mML-cw-nhG" eventType="touchUpInside" id="FxC-7i-M4j"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eNP-4s-ZzG"/>
